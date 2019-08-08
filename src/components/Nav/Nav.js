@@ -4,7 +4,7 @@ import './Nav.css'
 export default class Nav extends Component {
     render() {
         return (
-            <div>
+            <div className='Nav'>
                 Nav
             </div>
         )

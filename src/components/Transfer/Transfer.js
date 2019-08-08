@@ -8,10 +8,13 @@ export default class Transfer extends Component {
         amount: '',
         transactionType: ''
     }
+    handleChange = (prop, e) => {
+        this.setState({[prop]: e.target.value})
+    }
     render() {
         return (
             <div className='Transfer'>
-                Transfer
+                
                 <Link to='/dashboard'>
                     <button>Cancel</button>
                 </Link>
